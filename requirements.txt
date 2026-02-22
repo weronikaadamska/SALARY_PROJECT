@@ -5,4 +5,3 @@ scikit-learn
 statsmodels
 matplotlib
 seaborn
-pickle
