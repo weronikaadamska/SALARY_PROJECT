@@ -426,7 +426,7 @@ prediction = float((input_df * model_params).sum(axis=1))
 # OUTPUT
 # =====================================
 
-st.subheader("Prognozowane wynagrodzenie:")
+st.subheader("Prognozowane wynagrodzenie roczne:")
 formatted_salary = f"{prediction:,.2f}".replace(",", "X").replace(".", ",").replace("X", ".")
 st.success(formatted_salary)
 
