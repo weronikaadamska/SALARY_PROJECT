@@ -16,7 +16,7 @@ model_columns = model_data["columns"]
 # TYTUŁ APLIKACJI
 # =====================================
 
-st.title("Aplikacja prognozująca wynagrodzenie")
+st.title("Aplikacja prognozująca roczne wynagrodzenie w USD")
 st.write("Prognozowanie wynagrodzenia na podstawie doświadczenia, edukacji, płci oraz obejmowanego stanowiska.")
 
 # =====================================
